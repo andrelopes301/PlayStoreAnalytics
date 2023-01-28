@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="36dp"
+            android:layout_marginHorizontal="24dp">
+
+            <TextView
+                android:id="@+id/statstitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="What are the top 10 installed apps in any category?"
+                android:textSize="22sp"
+                android:textColor="@color/textColor"
+                android:fontFamily="@font/roboto_medium"
+                android:letterSpacing="0.02"
+                android:layout_gravity="center"
+                android:maxLines="3"
+                android:ellipsize="end"
+                />
+        </LinearLayout>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:baselineAligned="false"
+            android:theme="@style/Theme.Material3.Light.NoActionBar"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="0dp"
+            android:elevation="8dp"
+            app:cardUseCompatPadding="false"
+            app:strokeWidth="0dp"
+            android:layout_margin="24dp">
+
+            <ImageView
+                android:id="@+id/statsImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal|top"
+                android:scaleType="fitXY"
+                tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="150dp"
+            android:layout_marginHorizontal="24dp">
+
+            <TextView
+                android:id="@+id/statsDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lorem ipsum dolor sit amet. Sit nulla deserunt ut inventore eligendi non reprehenderit omnis 33 natus delectus. Ab laudantium pariatur ad commodi quidem qui minus veniam vel deleniti quibusdam est recusandae fuga 33 obcaecati maxime est ullam aspernatur. "
+                android:textSize="16sp"
+                android:textColor="@color/textColor"
+                android:fontFamily="@font/roboto_regular"
+                android:letterSpacing="0.03"
+                android:lineHeight="28dp"
+                android:layout_gravity="center"
+                android:justificationMode="inter_word"
+                android:ellipsize="end"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="36dp"
+            android:layout_marginBottom="150dp"
+            android:layout_marginHorizontal="24dp">
+
+            <TextView
+                android:id="@+id/description1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lorem ipsum dolor sit amet. Sit nulla deserunt ut inventore eligendi non reprehenderit omnis 33 natus delectus. Ab laudantium pariatur ad commodi quidem qui minus veniam vel deleniti quibusdam est recusandae fuga 33 obcaecati maxime est ullam aspernatur. "
+                android:textSize="16sp"
+                android:justificationMode="inter_word"
+                android:textColor="@color/textColor"
+                android:fontFamily="@font/roboto_regular"
+                android:letterSpacing="0.03"
+                android:lineHeight="28dp"
+                android:layout_gravity="center"
+                android:ellipsize="end"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

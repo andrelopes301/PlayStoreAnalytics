@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/favorite_off"
+        android:title="Favorite"
+        android:icon="@drawable/favorite_off"
+        android:visible="false"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/favorite_on"
+        android:title="Favorite"
+        android:icon="@drawable/favorite_on"
+        android:visible="false"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_compare"
+        android:title="@string/compare"
+        android:icon="@drawable/ic_compare_white"
+        android:iconTint="@color/colorWhite"
+        app:showAsAction="always" />
+
+</menu>

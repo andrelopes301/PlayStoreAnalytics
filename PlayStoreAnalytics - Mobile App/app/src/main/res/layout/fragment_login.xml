@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginHorizontal="24dp"
+    android:theme="@style/Theme.Material3.Light.NoActionBar"
+    >
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/profileImage"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="75dp"
+        app:strokeWidth="0dp"
+        app:cardBackgroundColor="#D9D9D9"
+        android:layout_marginTop="75dp">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:src="@drawable/ic_profile"
+            app:tint="@color/colorWhite" />
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/userName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textColor"
+        android:text="@string/profile"
+        android:textAlignment="center"
+        android:fontFamily="@font/roboto_medium"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="50dp"
+        android:textSize="18sp"
+        />
+
+
+
+
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/input_email"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginHorizontal="24dp"
+        android:hint="@string/prompt_email"
+        android:textSize="18sp"
+        android:inputType="textEmailAddress"
+        android:selectAllOnFocus="true"
+        android:textColor="@color/textColor"
+        android:textColorHint="#5E252540"
+        app:backgroundTint="@color/textColor"
+        android:layout_marginTop="25dp"
+        />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/input_password"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:hint="@string/prompt_password"
+        android:imeActionLabel="@string/create_account"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword"
+        android:selectAllOnFocus="true"
+        android:textColor="@color/textColor"
+        android:textColorHint="#5E252540"
+        app:backgroundTint="@color/textColor"
+        app:layout_constraintTop_toBottomOf="@id/input_email"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_create_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginHorizontal="50dp"
+        android:text="@string/log_in"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:fontFamily="@font/roboto_bold"
+        android:textColor="@color/colorWhite"
+        app:backgroundTint="@color/primaryColor"
+        android:enabled="false"
+        android:focusable="false"
+        android:clickable="false"
+        android:alpha="0.75"
+        app:cornerRadius="8dp"
+        android:insetLeft="0dp"
+        android:insetRight="0dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+
+        app:rippleColor="@color/primaryLighterColor"
+        app:layout_constraintTop_toBottomOf="@id/input_password"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <Button
+        android:id="@+id/button_existing_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/does_not_have_account"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:fontFamily="@font/roboto_regular"
+        android:textColor="@color/textColor"
+        style="?android:attr/borderlessButtonStyle"/>
+
+
+</LinearLayout>
+
+
+

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="log_out">Logout</string>
+    <string name="does_not_have_account">Don\'t have an account? Sign up</string>
+    <string name="already_have_account">Already have an account? Login</string>
+    <string name="log_in">Login</string>
+    <string name="create_account">Create Account</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_email">Email</string>
+    <string name="analytics">Analytics</string>
+    <string name="app_name">Playstore App Analytics</string>
+    <string name="home">Home</string>
+    <string name="categories">Categories</string>
+    <string name="statistics">Statistics</string>
+    <string name="profile">Profile</string>
+    <string name="compare">Compare</string>
+    <string name="search">Search</string>
+    <string name="remove">Remove</string>
+    <string name="account">Account</string>
+    <string name="favorites">Favorites</string>
+    <string name="seen_recently">Seen recently</string>
+    <string name="about">About</string>
+    <string name="downloads">Downloads</string>
+    <string name="search_apps">Search applications</string>
+    <string name="view_more">View more</string>
+
+
+    <!--    <string name="app_name">Playstore App Analytics</string>
+        <string name="analytics">Analytics</string>
+        <string name="prompt_email">Email</string>
+        <string name="prompt_password">Password</string>
+        <string name="create_account">Criar conta</string>
+        <string name="log_in">Login</string>
+        <string name="already_have_account">Já possui uma conta? Fazer login</string>
+        <string name="does_not_have_account">Não tem uma conta? Registe-se aqui</string>
+        <string name="log_out">Logout</string>
+        <string name="home">Home</string>
+        <string name="categories">Categorias</string>
+        <string name="statistics">Estatísticas</string>
+        <string name="profile">Perfil</string>
+        <string name="compare">Comparar</string>
+        <string name="filter">Filtro</string>
+        <string name="search">Pesquisa</string>
+        <string name="remove">Remover</string>
+        <string name="account">Conta</string>
+        <string name="favorites">Favoritos</string>
+        <string name="seen_recently">Visto recentemente</string>
+        <string name="about">Sobre</string>
+        <string name="downloads">Transferências</string>
+        <string name="search_apps">Pesquisar aplicações</string>-->
+</resources>

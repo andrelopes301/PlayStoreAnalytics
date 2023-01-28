@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="backgroundColor">#F0F0F0</color>
+    <color name="primaryColor">#252540</color>
+    <color name="secondaryColor">#059082</color>
+    <color name="primaryLighterColor">#3F3F67</color>
+
+    <color name="textColor">#252540</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="navBarBackgroundColor">#ffffff</color>
+</resources>

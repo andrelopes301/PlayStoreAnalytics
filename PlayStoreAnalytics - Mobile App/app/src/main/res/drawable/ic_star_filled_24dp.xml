@@ -1,0 +1,21 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="42dp"
+    android:height="42dp"
+    android:viewportWidth="16"
+    android:viewportHeight="16">
+    <group
+        android:scaleX="0.90"
+        android:scaleY="0.90"
+        android:pivotX="8"
+        android:pivotY="0">
+        <path
+            android:strokeWidth="1"
+            android:pathData="M7.9999,13.0734L4.6971,14.8865C4.2353,15.14 3.6642,14.9546 3.4214,14.4725C3.3248,14.2805 3.2914,14.0605 3.3265,13.8467L3.9573,10.0064L1.2853,7.2867C0.9117,6.9065 0.904,6.282 1.2682,5.892C1.4132,5.7366 1.6032,5.6355 1.8088,5.6043L5.5015,5.0441L7.1529,1.55C7.3838,1.0616 7.9502,0.861 8.418,1.1021C8.6043,1.1981 8.755,1.3555 8.847,1.55L10.4984,5.0441L14.1911,5.6043C14.7074,5.6827 15.0651,6.1832 14.9901,6.7223C14.9602,6.9369 14.8634,7.1353 14.7146,7.2867L12.0426,10.0064L12.6733,13.8467C12.7615,14.3836 12.4162,14.8935 11.902,14.9856C11.6973,15.0223 11.4867,14.9874 11.3028,14.8865L7.9999,13.0734Z"
+            android:strokeLineJoin="round"
+            android:fillColor="@color/primaryColor"
+            android:fillType="evenOdd"
+            android:strokeColor="@color/primaryColor"
+            android:strokeLineCap="butt"/>
+    </group>
+    <!-- #EC5344 -->
+</vector>

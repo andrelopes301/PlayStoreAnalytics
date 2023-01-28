@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_with_top_corners"
+    android:gravity="center"
+    android:theme="@style/Theme.Material3.Light.NoActionBar"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        >
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_line"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center|top"
+            app:tint="@color/primaryColor" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingTop="70dp"
+        android:layout_marginHorizontal="24dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/app1"
+                android:layout_width="0dp"
+                android:layout_weight="0.6"
+                android:layout_height="wrap_content"
+                android:hint="App #1"
+                android:inputType="text"
+                android:textColor="@color/primaryColor"
+                android:textColorHint="#80252540"
+                app:backgroundTint="@color/primaryColor"
+                android:selectAllOnFocus="true"
+                android:textSize="18sp"
+                android:fontFamily="@font/roboto_regular"
+                android:enabled="false"
+                />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_weight="0.3"
+                android:layout_marginStart="20dp"
+                >
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/removeButton1"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:fontFamily="@font/roboto_medium"
+                    android:textColor="@color/colorWhite"
+                    app:rippleColor="@color/primaryLighterColor"
+                    android:text="@string/remove"
+                    android:textAllCaps="false"
+                    app:backgroundTint="@color/primaryColor"
+                    android:src="@drawable/ic_compare"
+                    android:scaleType="centerCrop"
+                    android:focusable="false"
+                    android:clickable="false"
+                    android:enabled="false"
+                    android:alpha="0.5"
+                    app:cornerRadius="4dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/app2"
+                android:layout_width="0dp"
+                android:layout_weight="0.6"
+                android:layout_height="wrap_content"
+                android:hint="App #2"
+                android:inputType="text"
+                android:textColor="@color/primaryColor"
+                android:textColorHint="#80252540"
+                app:backgroundTint="@color/primaryColor"
+                android:selectAllOnFocus="true"
+                android:textSize="18sp"
+                android:fontFamily="@font/roboto_regular"
+                android:enabled="false"
+                />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_weight="0.3"
+                android:layout_marginStart="20dp"
+                >
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/removeButton2"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:fontFamily="@font/roboto_medium"
+                    android:textColor="@color/colorWhite"
+                    app:rippleColor="@color/primaryLighterColor"
+                    android:text="@string/remove"
+                    android:textAllCaps="false"
+                    app:backgroundTint="@color/primaryColor"
+                    android:src="@drawable/ic_compare"
+                    android:scaleType="centerCrop"
+                    android:focusable="false"
+                    android:clickable="false"
+                    android:enabled="false"
+                    android:alpha="0.5"
+                    app:cornerRadius="4dp"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/compareAppsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="76dp"
+            android:fontFamily="@font/roboto_bold"
+            android:textColor="@color/colorWhite"
+            app:backgroundTint="@color/primaryColor"
+            app:cornerRadius="4dp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:insetLeft="0dp"
+            android:insetRight="0dp"
+            app:rippleColor="@color/primaryLighterColor"
+            android:text="@string/compare"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:layout_marginTop="58dp"
+            android:layout_marginBottom="48dp"
+            android:alpha="0.5"
+            android:enabled="false"
+            android:focusable="false"
+            android:clickable="false"
+            app:elevation="0dp"
+            />
+
+    </LinearLayout>
+</FrameLayout>
+
