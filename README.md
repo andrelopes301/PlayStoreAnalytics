@@ -6,7 +6,7 @@ With our app, users can gain insights into the infodata and popularity of variou
 
 ### Mobile App Screens 
 <p>
-  <img src="https://github.com/andrelopes301/PlayStoreAnalytics/blob/main/PlayStoreAnalytics%20-%20Mobile%20App/splash.png" >
+  <img src="https://github.com/andrelopes301/PlayStoreAnalytics/blob/main/PlayStoreAnalytics%20-%20Mobile%20App/splash.png" width="22%" >
   <img src="https://github.com/andrelopes301/PlayStoreAnalytics/blob/main/PlayStoreAnalytics%20-%20Mobile%20App/home.png" width="22%" >
   <img src="https://github.com/andrelopes301/PlayStoreAnalytics/blob/main/PlayStoreAnalytics%20-%20Mobile%20App/statisticsView.png" width="22%" >
   <img src="https://github.com/andrelopes301/PlayStoreAnalytics/blob/main/PlayStoreAnalytics%20-%20Mobile%20App/compareScreen.png" width="22%" >
