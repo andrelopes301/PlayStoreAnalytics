@@ -4,7 +4,7 @@ This Android app is a tool that allows users to analyze and view data imported f
 
 With our app, users can gain insights into the infodata and popularity of various apps on the Play Store, helping them to make informed decisions about which apps to use and download. 
 
-### Mobile App Screens / System Architecture
+### Mobile App Screens 
 <p>
   <img src="https://raw.githubusercontent.com/andrelopes301/PlayStoreAnalytics/main/PlayStoreAnalytics%20-%20Mobile%20App/splash.png?token=GHSAT0AAAAAAB56YQQJBQCIX4NUC3LNGGBKY6WS73A" width="22%" >
   <img src="https://raw.githubusercontent.com/andrelopes301/PlayStoreAnalytics/main/PlayStoreAnalytics%20-%20Mobile%20App/home.png?token=GHSAT0AAAAAAB56YQQJBYSZ5BZX7UTIFPC2Y6WTACQ" width="22%" >
