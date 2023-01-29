@@ -6,10 +6,10 @@ With our app, users can gain insights into the infodata and popularity of variou
 
 ### Mobile App Screens / System Architecture
 <p>
-  <img src="https://i.ibb.co/Nn8qNYc/splash.png" width="15%" >
-  <img src="https://i.ibb.co/t2qf1K5/home.png" width="15%" >
-  <img src="https://i.ibb.co/1v9Vq4x/statistics-View.png" width="15%" >
-  <img src="https://i.ibb.co/dJPgNnv/compare-Screen.png" width="15%" >
+  <img src="https://i.ibb.co/Nn8qNYc/splash.png" width="20%" >
+  <img src="https://i.ibb.co/t2qf1K5/home.png" width="20%" >
+  <img src="https://i.ibb.co/1v9Vq4x/statistics-View.png" width="20%" >
+  <img src="https://i.ibb.co/dJPgNnv/compare-Screen.png" width="20%" >
  </p>
 
 ## Getting Started
