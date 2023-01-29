@@ -4,6 +4,14 @@ This Android app is a tool that allows users to analyze and view data imported f
 
 With our app, users can gain insights into the infodata and popularity of various apps on the Play Store, helping them to make informed decisions about which apps to use and download. 
 
+### Mobile App Screens / System Architecture
+<p>
+  <img src="https://i.ibb.co/Nn8qNYc/splash.png" width="15%" >
+  <img src="https://i.ibb.co/t2qf1K5/home.png" width="15%" >
+  <img src="https://i.ibb.co/1v9Vq4x/statistics-View.png" width="15%" >
+  <img src="https://i.ibb.co/dJPgNnv/compare-Screen.png" width="15%" >
+ </p>
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
